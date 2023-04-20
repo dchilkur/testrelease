@@ -1,5 +1,5 @@
 {
-  "name": "testrelease",
+  "name": "@dchilkur/testrelease",
   "version": "1.4.0",
   "description": "testing",
   "main": "index.js",
