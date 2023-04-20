@@ -3,6 +3,9 @@ name: Release
 on:
   push:
 
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
 jobs:
   release:
     permissions:
