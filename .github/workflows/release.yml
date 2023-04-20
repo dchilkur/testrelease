@@ -22,7 +22,7 @@ jobs:
       - run: yarn install
       - name: Set NPM registry
         run: |-
-          echo "@sfdc-www:registry=https://npm.pkg.github.com/" > .npmrc
+          echo "registry=https://npm.pkg.github.com/" > .npmrc
           echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" >> .npmrc
           echo "package-lock=false" >> .npmrc
       - run: npx semantic-release
