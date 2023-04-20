@@ -1,0 +1,26 @@
+{
+  "name": "testrelease",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "engines": {
+    "node": "16.14.2",
+    "yarn": "1.22.10"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.2"
+  },
+  "volta": {
+    "node": "16.14.2",
+    "yarn": "1.22.10"
+  },
+  "packageManager": "yarn@3.2.0"
+}
