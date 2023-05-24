@@ -4,21 +4,11 @@
   "description": "testing",
   "main": "index.js",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "type": "module",
-  "scripts": {
-    "release": "semantic-release"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dchilkur/testrelease",
     "directory": "packages/testproj1"
-  },
-  "engines": {
-    "node": "18.16.0",
-    "yarn": "1.22.19"
   },
   "volta": {
     "extends": "../../package.json"
