@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "multi-semantic-release"
+    "release": "git fetch --tags && multi-semantic-release"
   },
   "workspaces": [
     "packages/*"
