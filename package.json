@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "git fetch --tags && multi-semantic-release --ignore-packages=packages/clientweb/**"
+    "release": "git fetch --tags && multi-semantic-release --ignore-packages=packages/clientweb"
   },
   "workspaces": [
     "packages/*"
