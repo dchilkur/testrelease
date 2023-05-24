@@ -64,6 +64,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dchilkur/clientweb@workspace:packages/clientweb":
+  version: 0.0.0-use.local
+  resolution: "@dchilkur/clientweb@workspace:packages/clientweb"
+  languageName: unknown
+  linkType: soft
+
 "@dchilkur/testproj1@workspace:packages/testproj1":
   version: 0.0.0-use.local
   resolution: "@dchilkur/testproj1@workspace:packages/testproj1"
