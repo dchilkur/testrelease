@@ -4,9 +4,13 @@
   "description": "testing",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
-    "release": "semantic-release"
+    "release": "multi-semantic-release"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dchilkur/testrelease"
@@ -17,6 +21,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.2",
+    "@qiwi/multi-semantic-release": "^6.5.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
     "@semantic-release/release-notes-generator": "^10.0.3",

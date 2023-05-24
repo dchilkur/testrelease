@@ -1,0 +1,25 @@
+{
+  "name": "@dchilkur/testproj2",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dchilkur/testrelease",
+    "directory": "packages/testproj2"
+  },
+  "engines": {
+    "node": "18.16.0",
+    "yarn": "1.22.19"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
