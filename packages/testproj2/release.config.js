@@ -1,5 +1,5 @@
 module.exports = {
-    branches: ['+([0-9])?(.{+([0-9]),x}).x', 'main', { name: 'hotfix', prerelease: true }, { name: 'hfx-er', prerelease: true } , {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}],
+    branches: [ 'main', { name: 'hotfix', prerelease: true }, { name: 'hfx-er', prerelease: true } , {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}],
     tagFormat: '@dchilkur/testproj2@${version}',
     plugins: [
         '@semantic-release/commit-analyzer',
