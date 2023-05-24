@@ -82,19 +82,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dchilkur/testrelease@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@dchilkur/testrelease@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.4.2
-    "@qiwi/multi-semantic-release": ^6.5.1
-    "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^8.0.7
-    "@semantic-release/release-notes-generator": ^10.0.3
-    semantic-release: ^21.0.1
-  languageName: unknown
-  linkType: soft
-
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -5888,6 +5875,19 @@ __metadata:
   checksum: 52138bfda3854b09cef5b4ded773e4daeebc910888d5d3bbc348adcc5f935661e07b1b1ba291e3bbb5b4f42c6e04f912b80a0d37812cf8940bdf271f18f7364d
   languageName: node
   linkType: hard
+
+"testrelease@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "testrelease@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.4.2
+    "@qiwi/multi-semantic-release": ^6.5.1
+    "@semantic-release/git": ^10.0.1
+    "@semantic-release/github": ^8.0.7
+    "@semantic-release/release-notes-generator": ^10.0.3
+    semantic-release: ^21.0.1
+  languageName: unknown
+  linkType: soft
 
 "text-extensions@npm:^1.0.0":
   version: 1.9.0
