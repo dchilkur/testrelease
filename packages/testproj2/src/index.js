@@ -1,3 +1,3 @@
-console.log('test proj2 U');
+console.log('test proj2 Up');
 
 
