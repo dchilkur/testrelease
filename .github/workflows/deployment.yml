@@ -1,0 +1,12 @@
+name: Deploy
+on:
+  release:
+    types: [published]
+
+jobs:
+  print-hello-world:
+    if: contains(github.ref_name, 'testproj1') or contains(github.ref_name, 'testproj2')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo "Deploying"
