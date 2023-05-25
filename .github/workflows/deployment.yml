@@ -3,10 +3,15 @@ on:
   release:
     types: [published]
 
+
+
 jobs:
   print-hello-world:
-    if: contains(github.ref_name, 'testproj1') or contains(github.ref_name, 'testproj2')
+    if: '"testproj1" in github.ref_name or "testproj2" in github.ref_name'
     runs-on: ubuntu-latest
+    concurrency:
+      group: 'deploy stage'
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v2
       - run: echo "Deploying"
