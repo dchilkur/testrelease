@@ -7,7 +7,7 @@ on:
 
 jobs:
   print-hello-world:
-    if: '"testproj1" in github.ref_name or "testproj2" in github.ref_name'
+    if: ${{"testproj1" in github.ref_name or "testproj2" in github.ref_name}}
     runs-on: ubuntu-latest
     concurrency:
       group: 'deploy stage'
